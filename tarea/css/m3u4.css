@@ -1,0 +1,24 @@
+.contiene-colores {
+	display: flex;
+}
+
+.contiene-colores>div {
+	border: 1px solid #000;
+	margin: 10px;
+	padding: 20px;
+	font-size: 30px;
+	width: 100px;
+	height: 100px;
+}
+
+.div-color:nth-child(1) {
+	background-color: #00FF00;
+}
+
+.div-color:nth-child(2) {
+	background-color: #0000FF;
+}
+
+.div-color:nth-child(3) {
+	background-color: #FFFFFF;
+}
